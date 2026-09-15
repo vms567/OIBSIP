@@ -1,14 +1,14 @@
-\# Customer Segmentation Analysis
+# Customer Segmentation Analysis
 
 
 
-\## Oasis Infobyte - Data Analytics Internship
+## Oasis Infobyte - Data Analytics Internship
 
-\### Level 1 - Task 2
+### Level 1 - Task 2
 
 
 
-\## Project Overview
+## Project Overview
 
 
 
@@ -20,11 +20,11 @@ The objective is to identify different types of customers based on their purchas
 
 
 
-\## Dataset
+## Dataset
 
 
 
-The project uses the \*\*Online Retail Dataset\*\* from the UCI Machine Learning Repository.
+The project uses the **Online Retail Dataset** from the UCI Machine Learning Repository.
 
 
 
@@ -32,79 +32,79 @@ The dataset contains transactional data from a UK-based online retail company an
 
 
 
-\- Invoice Number
+- Invoice Number
 
-\- Stock Code
+- Stock Code
 
-\- Product Description
+- Product Description
 
-\- Quantity
+- Quantity
 
-\- Invoice Date
+- Invoice Date
 
-\- Unit Price
+- Unit Price
 
-\- Customer ID
+- Customer ID
 
-\- Country
-
-
-
-Original dataset size: \*\*541,909 rows and 8 columns\*\*.
+- Country
 
 
 
-\## Tools and Technologies
+Original dataset size: **541,909 rows and 8 columns**.
 
 
 
-\- Python
-
-\- Pandas
-
-\- NumPy
-
-\- Matplotlib
-
-\- Seaborn
-
-\- Scikit-learn
-
-\- Jupyter Notebook
+## Tools and Technologies
 
 
 
-\## Project Workflow
+- Python
+
+- Pandas
+
+- NumPy
+
+- Matplotlib
+
+- Seaborn
+
+- Scikit-learn
+
+- Jupyter Notebook
 
 
 
-\### 1. Data Loading and Inspection
-
-\- Loaded the Online Retail dataset using Pandas.
-
-\- Examined dataset structure, data types, missing values, duplicates, and descriptive statistics.
+## Project Workflow
 
 
 
-\### 2. Data Cleaning
+### 1. Data Loading and Inspection
 
-\- Removed transactions with missing Customer IDs.
+- Loaded the Online Retail dataset using Pandas.
 
-\- Removed duplicate records.
-
-\- Identified and excluded cancelled transactions.
-
-\- Removed transactions with zero or negative quantity and unit price.
-
-\- Created `TotalPrice` using Quantity × UnitPrice.
+- Examined dataset structure, data types, missing values, duplicates, and descriptive statistics.
 
 
 
-After cleaning, \*\*392,692 valid transaction records\*\* remained.
+### 2. Data Cleaning
+
+- Removed transactions with missing Customer IDs.
+
+- Removed duplicate records.
+
+- Identified and excluded cancelled transactions.
+
+- Removed transactions with zero or negative quantity and unit price.
+
+- Created `TotalPrice` using Quantity × UnitPrice.
 
 
 
-\### 3. RFM Analysis
+After cleaning, **392,692 valid transaction records** remained.
+
+
+
+### 3. RFM Analysis
 
 
 
@@ -112,19 +112,19 @@ Customer purchasing behavior was analyzed using:
 
 
 
-\- \*\*Recency:\*\* Number of days since the customer's most recent purchase.
+- **Recency:** Number of days since the customer's most recent purchase.
 
-\- \*\*Frequency:\*\* Number of unique purchases made by the customer.
+- **Frequency:** Number of unique purchases made by the customer.
 
-\- \*\*Monetary:\*\* Total amount spent by the customer.
-
-
-
-A total of \*\*4,338 customers\*\* were included in the RFM analysis.
+- **Monetary:** Total amount spent by the customer.
 
 
 
-\### 4. Data Transformation and Scaling
+A total of **4,338 customers** were included in the RFM analysis.
+
+
+
+### 4. Data Transformation and Scaling
 
 
 
@@ -136,7 +136,7 @@ A logarithmic transformation was applied to reduce skewness, followed by `Standa
 
 
 
-\### 5. Elbow Method
+### 5. Elbow Method
 
 
 
@@ -144,11 +144,11 @@ The Elbow Method was used to determine an appropriate number of clusters.
 
 
 
-Based on the reduction in inertia, \*\*K = 3\*\* was selected for customer segmentation.
+Based on the reduction in inertia, **K = 3** was selected for customer segmentation.
 
 
 
-\### 6. K-Means Customer Segmentation
+### 6. K-Means Customer Segmentation
 
 
 
@@ -168,11 +168,11 @@ K-Means clustering divided the customers into three segments:
 
 
 
-\## Customer Segment Interpretation
+## Customer Segment Interpretation
 
 
 
-\### High-Value Customers
+### High-Value Customers
 
 
 
@@ -180,7 +180,7 @@ These customers purchase recently and frequently and have the highest monetary v
 
 
 
-\### Regular Customers
+### Regular Customers
 
 
 
@@ -188,7 +188,7 @@ These customers demonstrate moderate recency, frequency, and monetary value. The
 
 
 
-\### At-Risk Customers
+### At-Risk Customers
 
 
 
@@ -196,95 +196,95 @@ These customers have high recency and low frequency and monetary value. They hav
 
 
 
-\## Marketing Recommendations
+## Marketing Recommendations
 
 
 
-\### High-Value Customers
+### High-Value Customers
 
-\- Provide loyalty rewards and VIP benefits.
+- Provide loyalty rewards and VIP benefits.
 
-\- Offer exclusive deals and early access to new products.
+- Offer exclusive deals and early access to new products.
 
-\- Use personalized recommendations, cross-selling, and upselling.
-
-
-
-\### Regular Customers
-
-\- Encourage repeat purchases using personalized offers.
-
-\- Introduce loyalty programs and targeted promotions.
-
-\- Recommend products based on previous purchasing behavior.
+- Use personalized recommendations, cross-selling, and upselling.
 
 
 
-\### At-Risk Customers
+### Regular Customers
 
-\- Launch win-back and re-engagement campaigns.
+- Encourage repeat purchases using personalized offers.
 
-\- Provide limited-time discounts and personalized offers.
+- Introduce loyalty programs and targeted promotions.
 
-\- Use reminders and targeted communication to encourage customers to return.
-
-
-
-\## Key Insights
+- Recommend products based on previous purchasing behavior.
 
 
 
-\- At-Risk Customers form the largest segment with \*\*1,872 customers\*\*.
+### At-Risk Customers
 
-\- Regular Customers represent \*\*1,697 customers\*\* and provide an opportunity for conversion into high-value customers.
+- Launch win-back and re-engagement campaigns.
 
-\- High-Value Customers consist of \*\*769 customers\*\* and contribute significantly more value through frequent and recent purchases.
+- Provide limited-time discounts and personalized offers.
 
-\- RFM analysis combined with K-Means clustering provides an effective approach for understanding customer purchasing behavior.
-
-
-
-\## Project Structure
+- Use reminders and targeted communication to encourage customers to return.
 
 
 
-DataAnalytics\_L1\_CustomerSegmentation/
-
-\- Dataset/
-
-&#x20; - Online Retail.xlsx
-
-\- Notebook/
-
-&#x20; - Customer\_Segmentation\_Analysis.ipynb
-
-\- Outputs/
-
-&#x20; - cleaned\_online\_retail.csv
-
-&#x20; - customer\_segmentation\_results.csv
-
-\- Screenshots/
-
-&#x20; - Elbow\_Method.png
-
-&#x20; - Customer\_Count\_by\_Segment.png
-
-&#x20; - Recency\_vs\_Frequency.png
-
-&#x20; - Frequency\_vs\_Monetary.png
-
-&#x20; - Recency\_Distribution.png
-
-&#x20; - Frequency\_Distribution.png
-
-&#x20; - Monetary\_Distribution.png
-
-\- README.md
+## Key Insights
 
 
 
-\## Conclusion
+- At-Risk Customers form the largest segment with **1,872 customers**.
+
+- Regular Customers represent **1,697 customers** and provide an opportunity for conversion into high-value customers.
+
+- High-Value Customers consist of **769 customers** and contribute significantly more value through frequent and recent purchases.
+
+- RFM analysis combined with K-Means clustering provides an effective approach for understanding customer purchasing behavior.
+
+
+
+## Project Structure
+
+
+
+DataAnalytics_L1_CustomerSegmentation/
+
+- Dataset/
+
+  - Online Retail.xlsx
+
+- Notebook/
+
+  - Customer_Segmentation_Analysis.ipynb
+
+- Outputs/
+
+  - cleaned_online_retail.csv
+
+  - customer_segmentation_results.csv
+
+- Screenshots/
+
+  - Elbow_Method.png
+
+  - Customer_Count_by_Segment.png
+
+  - Recency_vs_Frequency.png
+
+  - Frequency_vs_Monetary.png
+
+  - Recency_Distribution.png
+
+  - Frequency_Distribution.png
+
+  - Monetary_Distribution.png
+
+- README.md
+
+
+
+## Conclusion
 
 
 
