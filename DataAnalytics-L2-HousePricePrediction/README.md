@@ -1,6 +1,6 @@
-# 🏠 House Price Prediction
+#  House Price Prediction
 
-## 📌 Project Overview
+##  Project Overview
 
 This project focuses on predicting residential house prices using machine learning techniques based on property-related features such as area, location, number of rooms, quality, age, and other characteristics.
 
@@ -10,7 +10,7 @@ The project uses the **Ames Housing Dataset** and compares multiple regression m
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 The main objectives of this project are:
 
@@ -33,7 +33,7 @@ The main objectives of this project are:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The project uses the **Ames Housing Dataset**, which contains information about residential properties and their corresponding sale prices.
 
@@ -68,7 +68,7 @@ These features help identify the factors that influence residential property pri
 
 ---
 
-## 🔎 Exploratory Data Analysis
+##  Exploratory Data Analysis
 
 The following EDA activities were performed:
 
@@ -106,7 +106,7 @@ This analysis helped understand which numerical features have stronger relations
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 
 The following preprocessing steps were performed:
 
@@ -131,7 +131,7 @@ After preprocessing and one-hot encoding, the feature matrix contained **218 fea
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 Three regression models were developed and evaluated.
 
@@ -149,7 +149,7 @@ Random Forest was used as an additional model to capture nonlinear relationships
 
 ---
 
-## 📈 Model Evaluation
+##  Model Evaluation
 
 The models were evaluated using three metrics:
 
@@ -173,7 +173,7 @@ R² measures how much of the variation in house prices is explained by the model
 
 ---
 
-## 🏆 Model Comparison
+##  Model Comparison
 
 The following results were obtained on the test dataset:
 
@@ -196,7 +196,7 @@ This indicates that the Random Forest model was able to capture the nonlinear re
 
 ---
 
-## 📊 Visualizations
+##  Visualizations
 
 The project includes visualizations for:
 
@@ -211,7 +211,7 @@ These visualizations help evaluate the model and understand its prediction behav
 
 ---
 
-## 💡 Key Insights
+##  Key Insights
 
 The analysis demonstrates that house prices are influenced by multiple property characteristics rather than a single factor.
 
@@ -226,7 +226,7 @@ Important observations from the project include:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 DataAnalytics-L2-HousePricePrediction/
@@ -253,7 +253,7 @@ DataAnalytics-L2-HousePricePrediction/
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Python**
 - **Jupyter Notebook**
@@ -265,7 +265,7 @@ DataAnalytics-L2-HousePricePrediction/
 
 ---
 
-## 🔄 Project Workflow
+##  Project Workflow
 
 ```text
 Dataset
@@ -297,7 +297,7 @@ Final Insights
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository
 
@@ -329,7 +329,7 @@ Open the house price prediction notebook from the `Notebook` folder and run the 
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates an end-to-end machine learning workflow for house price prediction.
 
@@ -341,7 +341,7 @@ The project provided practical experience in data preprocessing, exploratory ana
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Vikas Gaikwad**
 
@@ -354,6 +354,6 @@ Data Analyst | SQL | Python | Excel | Power BI | Machine Learning
 
 ---
 
-## 📜 Internship Task
+##  Internship Task
 
 This project was completed as part of the **Oasis Infobyte Data Analytics Internship Program**.
